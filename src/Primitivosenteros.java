@@ -1,4 +1,4 @@
-public class Primitivos {
+public class Primitivosenteros {
      /*
         ------------------------------------
             Tipo de datos primitivos
