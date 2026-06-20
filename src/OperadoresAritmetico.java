@@ -1,10 +1,10 @@
 import javax.swing.JOptionPane;
 
-public class OperadorAritmetico {
+public class OperadoresAritmetico {
     public int i; 
     public int j;
 
-    public OperadorAritmetico(int i, int j) {
+    public OperadoresAritmetico(int i, int j) {
         this.i = i;
         this.j = j;
     }
@@ -50,7 +50,7 @@ public class OperadorAritmetico {
     public static void main(String[] args) {
         int i = 56, j = 6;
         
-        OperadorAritmetico valor = new OperadorAritmetico(i, j);
+        OperadoresAritmetico valor = new OperadoresAritmetico(i, j);
         
         int suma = valor.sumaTtotal(45, 5);
         System.out.println("resultado de la suma: " + suma);
